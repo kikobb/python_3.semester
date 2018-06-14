@@ -10,7 +10,7 @@ class ArgParser:
 
     @staticmethod
     def arg_parse():
-        "parameter je bez nazvu programu a navratova hodnota vracia asoc pole argum alebo false"
+        """parameter je bez nazvu programu a navratova hodnota vracia asoc pole argum alebo false"""
 
         arguments = sys.argv
         del arguments[0]
